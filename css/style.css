@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+header{
+    background-color: #FF6900;
+    
+    padding: 20px;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .custumers{
+    color: #ffffff;
+}
+
+header .container .custumers .gender{
+    margin-right: 10px;;
+}
+header .header-icons{
+    color: #ffffff;
+}
+header .header-icons .fa{
+    margin-right: 5px;
+}
