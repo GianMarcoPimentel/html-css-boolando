@@ -42,15 +42,52 @@ header .header-icons .fa{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.cards .container .photo .X .photo1{
+.cards .container .photo .X{
     position: relative;
+    color: #ffffff;
 }
-.cards .container .photo .X .photo1 .sale{
-    width: 40px;
+.cards .container .photo .X .sale{
+    /* width: 40px; */
     background-color: red;
+
+    padding: 0px 5px;
+
     position: absolute;
-    
- 
+    left: 0px;
+    bottom: 30px;
+}
+.cards .container .photo .X .sostenibilità{
+    background-color: green;
+
+    padding: 0px 5px;
+
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+.cards .container .photo .X .sostenibilità2{
+    background-color: green;
+
+    padding: 0px 5px;
+
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}
+.heart{
+    color: black;
+    padding: 10px;
+}
+.cards .container .photo .X .heart{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    text-align: center;
+
+
 }
 .cards .container .photo .new-price{
     color: #FF1421;
@@ -64,12 +101,6 @@ header .header-icons .fa{
 
 
 
-
-
-
-
-
-
 footer{
     background-color: #1A1A1A;
 }
@@ -78,3 +109,14 @@ footer .container .find-us {
     padding: 30px;
     color: #ffffff;
 }
+footer .container .editor .links a{
+    font-size: 0.9em;
+    color: #ffffff;
+    text-decoration: none;
+}
+footer .container .find-us .footer-icons{
+    margin-right: 8px;
+    padding-top: 10px;
+    text-align: center;
+}
+
