@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 /* reset */
-
+body{
+    font-family: 'Poppins',sans-serif;
+}
 header{
     background-color: #FF6900;
     
@@ -26,6 +28,15 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* .container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
 .clearfix{
     content: '';
     display: table;
