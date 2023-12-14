@@ -16,6 +16,7 @@ header{
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .clearfix{
     content: '';
@@ -38,9 +39,14 @@ header .header-icons .fa{
 .cards .container .photo{
     
     width: 250px;
-    padding-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     position: relative;
+}
+.cards .container .photo img .sale{
+    position: absolute;
+ 
 }
 .cards .container .photo .new-price{
     color: #FF1421;
@@ -48,4 +54,25 @@ header .header-icons .fa{
 .cards .container .photo .old-price{
     color: #262626;
     margin-left: 4px;
+}
+.cards .container .photo:hover .photo1{
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1A1A1A;
+}
+footer .container .editor ,
+footer .container .find-us {
+    padding: 30px;
+    color: #ffffff;
 }
