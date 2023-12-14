@@ -41,11 +41,15 @@ header .header-icons .fa{
     width: 250px;
     padding-top: 40px;
     padding-bottom: 40px;
-
+}
+.cards .container .photo .X .photo1{
     position: relative;
 }
-.cards .container .photo img .sale{
+.cards .container .photo .X .photo1 .sale{
+    width: 40px;
+    background-color: red;
     position: absolute;
+    
  
 }
 .cards .container .photo .new-price{
@@ -55,9 +59,7 @@ header .header-icons .fa{
     color: #262626;
     margin-left: 4px;
 }
-.cards .container .photo:hover .photo1{
-    
-}
+
 
 
 
