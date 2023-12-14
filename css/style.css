@@ -17,7 +17,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
 header .container .custumers{
     color: #ffffff;
 }
@@ -32,6 +36,7 @@ header .header-icons .fa{
     margin-right: 5px;
 }
 .cards .container .photo{
+    
     width: 250px;
     padding-top: 80px;
 
