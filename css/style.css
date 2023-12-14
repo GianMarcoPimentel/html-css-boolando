@@ -9,11 +9,19 @@ header{
     background-color: #FF6900;
     
     padding: 20px;
+    margin-bottom: 40px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;    
 }
 .container{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -36,8 +44,7 @@ header .header-icons{
 header .header-icons .fa{
     margin-right: 5px;
 }
-.cards .container .photo{
-    
+.cards .container .photo{ 
     width: 250px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -82,13 +89,12 @@ header .header-icons .fa{
     width: 40px;
     height: 40px;
     background-color: #ffffff;
+
     position: absolute;
     right: 0px;
     top: 10px;
     text-align: center;
-
-
-}
+} 
 .cards .container .photo .new-price{
     color: #FF1421;
 }
@@ -96,11 +102,6 @@ header .header-icons .fa{
     color: #262626;
     margin-left: 4px;
 }
-
-
-
-
-
 footer{
     background-color: #1A1A1A;
 }
