@@ -31,3 +31,16 @@ header .header-icons{
 header .header-icons .fa{
     margin-right: 5px;
 }
+.cards .container .photo{
+    width: 250px;
+    padding-top: 80px;
+
+    position: relative;
+}
+.cards .container .photo .new-price{
+    color: #FF1421;
+}
+.cards .container .photo .old-price{
+    color: #262626;
+    margin-left: 4px;
+}
