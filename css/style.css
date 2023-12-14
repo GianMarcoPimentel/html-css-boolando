@@ -53,6 +53,18 @@ header .header-icons .fa{
     position: relative;
     color: #ffffff;
 }
+.cards .container .photo .X .img{
+    position: relative;
+}
+.cards .container .photo .X .img2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.cards .container .photo .X .img2:hover{
+    opacity: 1;
+}
 .cards .container .photo .X .sale{
     /* width: 40px; */
     background-color: red;
