@@ -12,13 +12,32 @@ header{
     
     padding: 20px;
     margin-bottom: 40px;
+    box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.4); /* per dare l'ombra */
 
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;    
+    z-index:1;    
 }
+/* 
+stilizzare la lista 
+header .custumers ul{
+   dislay:flex;
+   gap:18px;
+   list-style-type:none;
+}
+haeder .custumers ul a{
+  text-decoration:none;
+
+}
+haeder .custumers ul a:hover{
+    color:white;
+    text-decoration:underline;
+    
+}
+*/
+
 .container{
     width: 1000px;
     margin-left: auto;
@@ -37,6 +56,10 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
 } */
+main{
+    padding-top: 80px;
+
+}
 .clearfix{
     content: '';
     display: table;
@@ -72,6 +95,7 @@ header .header-icons .fa{
     top: 0px;
     left: 0px;
     opacity: 0;
+    transition: 0.3s;/* va scritto qua poerchè se lo scrivo nell'hover poi nonm fiunziona quando esco dall'hover col mouse */
 }
 .cards .container .photo .X .img2:hover{
     opacity: 1;
@@ -104,13 +128,11 @@ header .header-icons .fa{
     left: 0px;
     bottom: 30px;
 }
-.heart{
-    color: black;
-    padding: 10px;
-}
 .cards .container .photo .X .heart{
     width: 40px;
     height: 40px;
+    color: black;
+    padding: 10px;
     background-color: #ffffff;
 
     position: absolute;
@@ -118,6 +140,9 @@ header .header-icons .fa{
     top: 10px;
     text-align: center;
 } 
+.cards .container .photo .X .heart:hover{
+    color: red;
+}
 .cards .container .photo .new-price{
     color: #FF1421;
 }
